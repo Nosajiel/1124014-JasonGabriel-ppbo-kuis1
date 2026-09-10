@@ -204,7 +204,7 @@ public class ppbo_kuis1_1124014_jasongabriel {
                     tv.turnOn(); 
                     tv.connect(ConnectionType.WIFI); 
                     deviceList.add(tv);
-                    System.out.println(">> Smart TV berhasil ditambahkan!");
+                    System.out.println(" Smart TV berhasil ditambahkan!");
 
                 } else if (deviceChoice == 2) {
                     int volume = InputUtil.readInt("Masukkan Volume Awal: ");
@@ -219,7 +219,7 @@ public class ppbo_kuis1_1124014_jasongabriel {
                     SmartDoorLock doorLock = new SmartDoorLock(id, nama, daya, pin);
                     doorLock.lock();
                     deviceList.add(doorLock);
-                    System.out.println(">> Smart Door Lock berhasil ditambahkan!");
+                    System.out.println(" Smart Door Lock berhasil ditambahkan!");
 
                 } else {
                     System.out.println("Pilihan perangkat tidak valid.");
